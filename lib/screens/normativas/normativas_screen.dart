@@ -85,7 +85,7 @@ class _NormativasScreenState extends State<NormativasScreen> {
   List<Normativa> _getMockNormativas() {
     return [
       Normativa(
-        id: 1,
+        id: '1',
         titulo: 'Ley General sobre Medio Ambiente y Recursos Naturales',
         descripcion:
             'Ley No. 64-00 que establece el marco normativo para la gestión del medio ambiente y los recursos naturales.',
@@ -95,7 +95,7 @@ class _NormativasScreenState extends State<NormativasScreen> {
         documento: 'https://example.com/ley-64-00.pdf',
       ),
       Normativa(
-        id: 2,
+        id: '2',
         titulo: 'Reglamento sobre Evaluación Ambiental',
         descripcion:
             'Norma que regula los procedimientos para la evaluación de impacto ambiental de proyectos.',
@@ -105,7 +105,7 @@ class _NormativasScreenState extends State<NormativasScreen> {
         documento: 'https://example.com/reglamento-evaluacion.pdf',
       ),
       Normativa(
-        id: 3,
+        id: '3',
         titulo: 'Norma sobre Calidad del Aire',
         descripcion:
             'Establecimiento de límites máximos permisibles para contaminantes atmosféricos.',
@@ -114,7 +114,7 @@ class _NormativasScreenState extends State<NormativasScreen> {
         estado: 'Vigente',
       ),
       Normativa(
-        id: 4,
+        id: '4',
         titulo: 'Ley de Residuos Sólidos',
         descripcion:
             'Marco legal para la gestión integral de residuos sólidos urbanos e industriales.',
@@ -124,7 +124,7 @@ class _NormativasScreenState extends State<NormativasScreen> {
         documento: 'https://example.com/ley-residuos.pdf',
       ),
       Normativa(
-        id: 5,
+        id: '5',
         titulo: 'Resolución sobre Áreas Protegidas',
         descripcion:
             'Normativa para la creación y gestión de áreas naturales protegidas.',

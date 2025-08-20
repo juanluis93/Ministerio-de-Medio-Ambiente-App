@@ -64,9 +64,9 @@ class _AreasScreenState extends State<AreasScreen>
     final query = _searchController.text.toLowerCase();
     setState(() {
       _filteredAreas = _areas.where((area) {
-    return area.nombre.toLowerCase().contains(query) ||
-      area.tipo.toLowerCase().contains(query) ||
-      (area.ubicacion?.toLowerCase().contains(query) ?? false);
+        return area.nombre.toLowerCase().contains(query) ||
+            area.tipo.toLowerCase().contains(query) ||
+            (area.ubicacion?.toLowerCase().contains(query) ?? false);
       }).toList();
     });
   }

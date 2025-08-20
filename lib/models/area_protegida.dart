@@ -1,4 +1,3 @@
-
 class AreaProtegida {
   final String id;
   final String nombre;

@@ -1,5 +1,5 @@
 class Normativa {
-  final int id;
+  final String id;
   final String titulo;
   final String descripcion;
   final String? documento;
@@ -19,7 +19,7 @@ class Normativa {
 
   factory Normativa.fromJson(Map<String, dynamic> json) {
     return Normativa(
-      id: json['id'] ?? 0,
+      id: json['id']?.toString() ?? '',
       titulo: json['titulo']?.toString() ?? '',
       descripcion: json['descripcion']?.toString() ?? '',
       documento: json['documento']?.toString(),
